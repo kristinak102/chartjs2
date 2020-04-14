@@ -3,11 +3,11 @@ $(document).ready(function () {
 	var ctx = $("#bar-chartcanvas");
 
 	var data = {
-		labels : ["match1", "match2", "match3", "match4", "match5"],
+		labels : ["Jan", "Feb", "Mar", "Apr", "May"],
 		datasets : [
 			{
-				label : "TeamA score",
-				data : [10, 50, 25, 70, 40],
+				label : "Jan",
+				data : [25],
 				backgroundColor : [
 					"red",
 					"green",
@@ -25,8 +25,8 @@ $(document).ready(function () {
 				borderWidth : 1
 			},
 			{
-				label : "TeamB score",
-				data : [20, 35, 40, 60, 50],
+				label : "Feb",
+				data : [25, 25],
 				backgroundColor : [
 					"aqua",
 					"salmon",
